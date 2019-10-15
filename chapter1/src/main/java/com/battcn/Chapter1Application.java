@@ -32,7 +32,7 @@ public class Chapter1Application {
 
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
-        // 目的是
+        // 目的是  123
         return args -> {
             System.out.println("来看看 SpringBoot 默认为我们提供的 Bean：");
             String[] beanNames = ctx.getBeanDefinitionNames();
